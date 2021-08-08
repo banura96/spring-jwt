@@ -12,4 +12,12 @@ import lombok.Setter;
 public class Student {
     private String name;
     private Integer id;
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", id=" + id +
+                '}';
+    }
 }
